@@ -147,7 +147,7 @@ public class PicoPlacaTest {
 	 * @return false Fin de semana no se aplica Pico y Placa
 	 */
 	@Test
-	public void testPermitirCirculacion2() {
+	public void testPermitirCirculacion3() {
 		Boolean resultadoReal=PicoPlaca.permitirCirculacion(1,0,true);
 		Boolean resultadoEsperado=true;
 		assertEquals(resultadoEsperado, resultadoReal);
